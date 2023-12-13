@@ -23,7 +23,7 @@ prepare_environment = launch_utils.prepare_environment
 configure_for_tests = launch_utils.configure_for_tests
 start = launch_utils.start
 
-
+# python launch.py --listen --enable-insecure-extension-access
 def main():
     if args.dump_sysinfo:
         filename = launch_utils.dump_sysinfo()
